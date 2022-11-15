@@ -12,18 +12,5 @@ noBloqueante.get('/', (req, res) => {
         res.json(datos)
         console.log(datos)
 
-    
     })
-
-
-
-    //const datos = calculo(cantidad)
-
-
-
-    
-
-
-    //return Math.random() * (max - min) + min;
-
 })

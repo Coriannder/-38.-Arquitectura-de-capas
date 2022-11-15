@@ -1,10 +1,10 @@
 import mongoose from 'mongoose'
 import transformMongoObject from '../utils/objectUtils.js'
-import { URL_MONGO } from '../config/config.js'
+import { urlMongo } from '../config/config.js'
 
 
 
-await  mongoose.connect(URL_MONGO, {
+await  mongoose.connect(urlMongo, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
